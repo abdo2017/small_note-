@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+body {
+background-color: #afafaf;
+    text-align: center;
+    font-family: arial,"sans-serif";
+}
+.wrapper {
+    width: 100%;
+    max-width: 600px;
+    margin:0 auto;
+}
+.myNote {
+    background-color: yellow;
+    padding: .6em;
+    text-align: left;
+    color: #6f786f;
+    margin: 30px 0 ;
+    box-shadow: 1px 1px 2px 2px #f7faff;
+}
+.myNote > div {
+    padding: 15px;
+}
+.clearNote > a {
+    background-color: #000;
+    text-decoration: none;
+    padding: .5em 1em;
+    color: #fff;
+}
